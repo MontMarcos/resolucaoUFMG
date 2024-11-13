@@ -2,8 +2,6 @@
 //diga qual o número maximo de pares formados com essas botas. 
 //utilziando a STL (biblioteca padrão do C++)
 //a resposta vai ser o min entre a E e D de um tamanho X; 
-
-
 #include <bits/stdc++.h>
 using namespace std; 
 #define _ ios_base::sync_with_stdio(0);cin.tie(0); 
