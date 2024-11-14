@@ -22,8 +22,7 @@ ll factorial(int n)
 
 int main()
 {
-    _ 
-    int num = 1;
+    _ int num = 1;
     int contagem = 1;
     int aux;
 
@@ -39,7 +38,7 @@ int main()
             break;
         }
         // for(int i = 1; i<=n; i++){
-        //     aux *= i;
+        // aux *= i;
         // }
 
         aux = factorial(num);
@@ -54,9 +53,6 @@ int main()
             {
                 cout << resultado[i] << endl;
                 break;
-            }
-            else
-            {
             }
         }
     }
