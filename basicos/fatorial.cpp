@@ -1,3 +1,5 @@
+// https://br.spoj.com/problems/FATORIAL/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define _                         \
@@ -47,7 +49,7 @@ int main()
         resultado = res.str();
 
         for (int i = resultado.length() - 1; i != 0; i--)
-        {
+        {   
             if (resultado[i] != '0')
             {
                 cout << resultado[i] << endl;
