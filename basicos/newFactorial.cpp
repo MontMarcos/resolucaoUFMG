@@ -21,10 +21,8 @@ int main()
 {
     _ while (true)
     {
-        // cin >>
-        //     input;
-
-        scanf("%i", &input);
+        
+        cin >> input; 
 
         if (input == 0)
         {
@@ -41,20 +39,19 @@ int main()
             factorial *= i;
         }
 
-        auto factorialWord = to_string(factorial);
+        string factorialWord = to_string(factorial);
 
         for (int i = factorialWord.length() - 1; i != 0; i--)
         {
             // se o número for muito grande nem roda essa joça
-            if (i > 1000000)
+            if (i > 1000000) 
             {
                 break;
             }
 
             if (stoi(&factorialWord[i]) != 0)
             {
-
-                printf("Instancia %i\n", instancia);
+                cout << "Instancia: " << instancia << endl;
                 // fazer com printf é muito difícil, então mesmo sendo mais lento vai de cout msm
                 cout << factorialWord[i] << endl;
                 instancia++;
