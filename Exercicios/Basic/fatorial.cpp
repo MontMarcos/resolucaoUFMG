@@ -5,13 +5,13 @@ using namespace std;
 
 // fatorial é = (n+1)!/(n+1)
 
-// int calF(int n) {
-//   if(n == 0 || n ==1){
-//     return 1;
-//   } else {
-//     return n * calF(n-1); 
-//   }
-// }
+int calF(int n) {
+   if(n == 0 || n ==1){
+     return 1;
+   } else {
+     return n * calF(n-1); 
+   }
+ }
 
 int main() {
   int N;
